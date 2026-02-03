@@ -1,0 +1,30 @@
+# The .gitignore file specifies files and directories that should not be included in version control.
+
+# --- OS files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Trash-*
+
+# --- Editors ---
+*~
+.vscode/
+build/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+
+# --- Office temp ---
+~$*.docx
+~$*.xlsx
+~$*.pptx
