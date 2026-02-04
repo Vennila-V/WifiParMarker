@@ -7,7 +7,7 @@ TFT_eSPI tft = TFT_eSPI();
 
 // WiFi
 const char* ssid = "iotroam"; 
-const char* password = "__"; //type the correct password
+const char* password = "###"; //type the correct password
 
 WiFiServer server(5000);
 WiFiClient client;
