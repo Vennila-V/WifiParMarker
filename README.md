@@ -7,7 +7,7 @@ The primary objective of this repository is to enable wireless data exchange bet
 > [!IMPORTANT]
 > Ensure that both TTGO T-Display board and the Server are configured with the same password to connect to the **iotroam** network.
 
-After a TCP client establishes a connection, the board can send and receive data over the TCP protocol, enabling bidirectional communication and supporting WebSocket-based messaging.
+After a client establishes a connection, the board can send and receive data over the TCP protocol, enabling communication through web socket connection.
 
 ![WifiParMarker](media/board.JPG "WifiParMarker")
 
