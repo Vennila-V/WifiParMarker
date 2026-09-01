@@ -2,7 +2,7 @@
 
 ### Overview
 
-The primary objective of this repository is to enable wireless data exchange between devices. Once the system is set up, the TTGO T-Display board automatically connects to the **iotroam** network and displays its assigned IP address on the LCD screen.
+The primary objective of this repository is to enable wireless data exchange between devices. Once the system is set up, connect the TTGO T-Display board to desired wifi network via [SoloSerial web console](https://solo-fsw.github.io/solo-serial-web/console.html). Then it displays its IP address on the LCD screen.
 
 > [!IMPORTANT]
 > Ensure that both TTGO T-Display board and the Server are configured with the same password to connect to the **iotroam** network.
@@ -12,6 +12,10 @@ After a client establishes a connection, the board can send and receive data ove
 ![WifiParMarker](media/board.JPG "WifiParMarker")
 
 ---
+
+##### Dependency
+
+1. SOLO serial - https://github.com/solo-fsw/solo-serial-arduino/
 
 ### Getting Started
 
